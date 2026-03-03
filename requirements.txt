@@ -1,5 +1,8 @@
-numpy==2.2.6
-pandas==2.3.3
-scikit-learn==1.7.2
-matplotlib==3.10.8
-ipykernel==7.1.0
+transformers==4.45.2
+datasets==2.21.0
+evaluate==0.4.2
+accelerate==0.34.2
+numpy==1.26.4
+pandas==2.2.2
+tqdm==4.66.5
+scikit-learn==1.5.2
