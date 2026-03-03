@@ -18,5 +18,5 @@ python3 -m pip install -r requirements.txt
 
 python3 -m pip install -U ipykernel
 python3 -m ipykernel install --user --name venv-rag --display-name "venv-rag"
-
+pip install -U bitsandbytes
 echo "OK: env .venv'"
