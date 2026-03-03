@@ -2,6 +2,7 @@ transformers==4.45.2
 datasets==2.21.0
 evaluate==0.4.2
 accelerate==0.34.2
+bitsandbytes==0.43.3
 numpy==1.26.4
 pandas==2.2.2
 tqdm==4.66.5
