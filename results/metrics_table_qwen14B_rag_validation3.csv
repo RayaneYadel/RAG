@@ -1,0 +1,2 @@
+split,exact_match,f1,model,retriever,top_k,chunk_words,chunk_overlap,retrieval_hit_rate
+validation,63.1,68.84619610018113,JungZoona/T3Q-qwen2.5-14b-v1.0-e3,Qwen/Qwen3-Embedding-0.6B,5,400,100,90.7
