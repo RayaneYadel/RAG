@@ -13,11 +13,17 @@ else
 fi
 
 
-# deps
 pip install --upgrade pip
-python3 -m pip install -r requirements.txt
 
-python3 -m pip install -U ipykernel
-python3 -m ipykernel install --user --name venv-rag --display-name "venv-rag"
+# installer PyTorch explicitement AVANT le reste
+python -m pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+
+# installer le reste
+python -m pip install -r requirements.txt
+
+# kernel jupyter
+python -m pip install -U ipykernel
+python -m ipykernel install --user --name venv-rag --display-name "venv-rag"
+
 pip install -U bitsandbytes
 echo "OK: env .venv'"
