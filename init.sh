@@ -26,4 +26,10 @@ python -m pip install -U ipykernel
 python -m ipykernel install --user --name venv-rag --display-name "venv-rag"
 
 pip install -U bitsandbytes
+
+
+mkdir -p data
+unzip -o data.zip -d data
+
+
 echo "OK: env .venv'"
