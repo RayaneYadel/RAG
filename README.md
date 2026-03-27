@@ -8,7 +8,7 @@
   - Installe les dépendances
   - Décompresse `data.zip` et crée le dossier `data/` (CSV train/validation)
   
-### Run
+### Run
 - **bash init.sh**
 
 ### Notebooks
