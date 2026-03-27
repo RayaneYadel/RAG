@@ -9,7 +9,7 @@
   - Décompresse `data.zip` et crée le dossier `data/` (CSV train/validation)
   
 ### Run
-- **bash init.sh**
+- `bash init.sh`
 
 ### Notebooks
 - **no_rag_QA.ipynb**
